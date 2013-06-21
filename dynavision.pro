@@ -12,8 +12,10 @@ TARGET = dynavision
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    main_window.cpp
 
-HEADERS  +=
+HEADERS  += \
+    main_window.h
 
 FORMS    +=
